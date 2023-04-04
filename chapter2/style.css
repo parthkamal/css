@@ -1,0 +1,84 @@
+/* chapter 2 colors and backgrounds 
+
+css rules are simply key-value pairs with selector we can write css rules to change color and set backgrounds.*/
+
+/* the color property 
+the css color property can be used to set the text color inside an element */
+
+/* types of color values
+
+following are the commonly used color values in css 
+1. rgb - it is the most common used 
+2. rgba - similar to rgb but here we can also define the opacity of the color
+3. hex - we can add a color using hex code of that color
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* the background color property
+the css background color property specifies the background color of the container.*/
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+
+/* background-image property
+used to set an background image as the background of the container. */
+
+.background_image {
+    background-image: url("image.jpg");
+    width: 50rem;
+    height: 200px;
+    color: white;
+    border: 1px solid red;
+    background-repeat: repeat-x;
+}
+
+
+/* background-repeat property 
+this property is to repeat background in the x or y direction  or no repeat */
+
+
+/* background-size property
+can be following  -
+
+1. cover - files and no empty space remains. 
+2. contain - files and image is fully visible
+3. auto - display in original size*/
+
+
+/* background shorthand 
+a single property to set multiple background properties 
+
+div {
+    background : red url('image.png') no-repeat fixed right top ; 
+} 
+
+*/
+
+main {
+    color: darkred;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkblue;
+    color: lightblue;
+}
+

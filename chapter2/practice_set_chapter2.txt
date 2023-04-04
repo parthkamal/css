@@ -1,0 +1,6 @@
+chapter2 - practice set
+
+1. create a dark blue navigation bar with light color with light color items.
+2. change the color of the main container on your page to dark red
+3. create a div and add a background image with a given width and height. 
+4. create a vertical box and add a fixed non - scrolling bakcground to it.
