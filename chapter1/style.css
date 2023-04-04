@@ -1,0 +1,36 @@
+/* what is dom? 
+dom stands for document object model. When a page is loaded, the browser creates a Dom of the page which is constructed as a tree of objects. Dom is a inbuilt api present inside the browser. */
+
+
+/* html id and class attributes
+
+when an html element is given an id, it serves as an unique identifier for that element.on the other hand, when an html element is given a class, it now belongs to that class . More than one elements can belong to a single class and every element can belong to multiple class but every element should have a unique id.
+*/
+
+
+*{
+    margin: 0px;
+}
+
+#div_id {
+    background-color: red;
+}
+
+.class1 {
+    background-color: green;
+}
+
+.class2 {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+
+.one {
+    background-color: lightblue;
+    color: brown;
+}

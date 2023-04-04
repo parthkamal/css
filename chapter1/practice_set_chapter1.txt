@@ -1,0 +1,7 @@
+chapter 1 - practice set
+
+1. create a website with a class red div which has a background color of red and color white.
+2. create an element with id head and verify that background color works on it has inline, external as well as using style with css. 
+3. create a css class one and verify that it works on multiple elements. 
+4. create a multiple css classes and verify that all of these work on the same element.
+5. Have a look at mdn docs css reference and try to play around with few key- value css values. 
