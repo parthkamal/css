@@ -1,0 +1,6 @@
+chapter 3- practice set 
+
+1. create a website layout . Add a header box, 1 content box, and 1 footer
+2. add borders and margins to 1 
+3. did the margin collapse between content box and footer?// yes 
+4. add the box - sizing property to content box. what changes did you notice ?

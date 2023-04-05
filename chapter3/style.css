@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* the css box model 
+the css box model looks at all the html elements as boxes */
+
+
+/* we can set the width and height property using width and height property
+but the formula for the total height is 
+
+total height = height + top/botton padding + top/bottom border + top/botton margin
+total width = width + left/right padding + left/right border + left/right margin
+*/
+
+
+/* setting padding / margin 
+can be set using padding and margin property
+
+
+#box {
+    margin : 2px; 
+    padding : 2px ;
+} 
+
+.box_main {
+    margin : 7px 0px 2px 11px ; (top right botton left.)
+} 
+*/
+
+/* setting borders - we can set the borders as 
+
+.box {
+    border-width : 2px; 
+    border-style : solid; 
+    border-color : red; 
+    border-radius : 2px;
+}
+*/
+
+
+/* margin collapse 
+when two margins from different elements overlap, the equivalent margin is the greater of the two . This is called margin collapse
+
+box sizing determines what out of padding and border is included in the elements width and height */
+
+
+
+header {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+main {
+    background-color: aqua;
+    margin: 10px;
+    border : 1px solid black ;
+    box-sizing: content-box;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    margin: 20px;
+    border : 1px solid black; 
+}
