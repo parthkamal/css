@@ -1,0 +1,7 @@
+chapter4 - practice set 
+
+1. create the following website layout
+2. add a footer with google font "ballu bhai" to 1 
+3. removes the underline from the link in 1
+4. demonstrate the difference between display: none and visibility : hidden using a div 
+5. change the footer to all uppercase in 1 
