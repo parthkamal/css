@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* there are more units of describing size other than pixels (px), such as rem, em,vw,vh,pecentages. etc.
+using pixels is not considered a good idea pixels the number and size of pixels differ from screen to screen
+
+
+1. em - unit relative to parent element font size (used for font size )
+2. rem - unit relative to root element font size (<html>) (used for font size )
+3. vw - unit relative to viewport width
+4. vh - unit relative to viewport height
+5. % - unit relative to parent element.
+*/
+
+
+/* min/max property 
+if the container is smaller than the min-height then min-height will be applied */
+
+
+.container {
+    width: 50vw;
+    min-height: 50vh;
+    background-color: aqua;
+}
+
+
+/* the position property
+used to manipulate the location of an element following are the possible values: 
+
+1. static : the default position top/bottom/left right have no effect
+2. relative : position relative to its normal position
+3. absolute : position relative to its nearest ancestor
+*/
+
+
+/* the z-index property 
+this property is used to assigned the z index to an element */
+
+
+nav ul li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    border: 1px solid red;
+    background-color: white;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+
+}
+

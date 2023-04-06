@@ -1,0 +1,6 @@
+chapter5 - practice set 
+
+1. create a responsive navbar using relative lengths
+2. create a stick navbar using position property
+3. demonstrate a use of list-style property using a ul as example. 
+4. demonstrate the use of z-index using an example
