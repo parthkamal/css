@@ -1,0 +1,6 @@
+chapter6 - practice set 
+
+1. create a layout of your choice using float
+2. create the same layout using flexbox
+3. create a following navigation bar using flex box
+4. create a following navigation bar using flex box

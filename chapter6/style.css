@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* before we look into the css flexbox we will look into float and clear properties */
+
+/* the float property
+float property is simple . It just flows the element towards left/right
+*/
+
+
+/* the css flexbox
+aims at providing a better way to layout, align, and distribute space among items in a container.
+*/
+
+
+/* properties of flex-box
+
+1. flex-direction - defines the direction towards which items are laid. 
+2. justify content - (defined for the flex container) defines alignment along main axis.
+3. align-items - defines alignment along cross axis.
+*/
+
+/* flex properties for the children
+
+1. order - controls the order in which the items appear in  the flex container. 
+2. align-self - allows default alignment to be overriden for the individual flex items. 
+3. flex-grow - defines the ability for a flex items to grow.
+4. flex-shrink - specifies how much a flex icon will shrink relative to the reset of the flex items.*/
+
+
+.left {
+    width: 75%;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.right {
+    display: inline-block;
+    width: 25%;
+    height: 25vh;
+    background-color: red;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom :25vh;
+}
+
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    flex-direction: row;
+    align-items: end;
+}
+
+
+
+.flex-left {
+    width: 75%; 
+    height: 50vh;
+    background-color: aqua;
+}
+
+.flex-right {
+    width: 25%;
+    height: 25vh;
+    background-color: red;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top : 0;
+}
+
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+
+.logo {
+    color: white;
+    display: inline;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    color: white;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+
