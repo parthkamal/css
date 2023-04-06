@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* a css grid can be initialised using display : grid . All the direct children will automatically become grid items */
+
+/* main properties of grid css
+
+1. grid-column-gap - used to adjust the space between the columns of a css grid
+2. grid-row-gap - used to adjust the space betweent the rows of a css grid
+3. the grid-gap - shorthand for grid-column and grid-row (row column)
+*/
+
+
+/* following are the properties of grid container 
+
+1. grid-template-colums - can be used to specify the width of the columns
+2. grid-template-rows - can be used to specify the height of the row
+3. justify-content - horizontal align the whole grid inside the container
+4. align-content - used to vertically align the whole grid inside the container.
+*/
+
+/* following are the properties of grid items 
+
+1. grid-column - defines how many columns an item will span
+2. grid-row - defines how many rows an item will span
+3. */
+
+
+/* css media queries
+used to apply css only when a certain condition is true :
+
+
+@media only screen and (max-width : 800 px){
+    body {
+        background: red ; 
+    } 
+}*/
+
+
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    * {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    
+    * {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width :800px) {
+     * {
+        background-color: red;
+    }
+}
